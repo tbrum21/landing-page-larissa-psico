@@ -47,7 +47,7 @@ function ContatoSection() {
           </a>
         </div>
 
-        <p className="contato-note">🌿 Atendimento presencial e online · crianças e adolescentes</p>
+        <p className="contato-note">🌿 Atendimento presencial · crianças e adolescentes</p>
       </div>
     </section>);
 

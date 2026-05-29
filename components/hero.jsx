@@ -139,9 +139,6 @@ function Hero() {
 
       <div className="hero-inner wrap">
         <div className={"hero-copy " + (loaded ? 'loaded' : '')}>
-          <span className="hero-eyebrow">
-            <span className="dot-pulse" /> Psicologia infantojuvenil · TCC
-          </span>
           <h1 className="hero-title">
             {words.map((w, i) => (
               <span className="word-mask" key={i}>
