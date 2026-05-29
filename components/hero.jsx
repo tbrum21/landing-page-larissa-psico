@@ -101,7 +101,7 @@ function Hero() {
     spawn(e.clientX, e.clientY, 5);
   };
 
-  const words = ["Um", "espaço", "seguro", "para", "a", "criança", "crescer", "por", "dentro."];
+  const words = ["Um", "espaço", "seguro", "para", "a", "infância", "florescer"];
 
   return (
     <header className="hero" ref={heroRef} onPointerDown={onPointer}>

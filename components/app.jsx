@@ -12,7 +12,7 @@ function Header() {
   return (
     <header className={"site-header " + (scrolled ? 'scrolled' : '')}>
       <a className="logo" href="#top" aria-label="Larissa Antunes — Psicóloga">
-        <img src="assets/logo.png" alt="Larissa Antunes — Psicóloga" className="logo-img" />
+        <img src="assets/logo.png" alt="Larissa Antunes — Psicóloga" className="logo-img" style={{ width: "100px", height: "100px" }} />
       </a>
       <nav className="nav-links">
         <a href="#tcc" className="nav-link-text">O que é TCC</a>

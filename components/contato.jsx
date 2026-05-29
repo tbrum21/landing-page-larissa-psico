@@ -1,9 +1,9 @@
 /* contato.jsx — Contato / Agendamento + rodapé */
 
-const WPP_NUMBER = '5500000000000'; // placeholder — trocar pelo número real
-const WPP_MSG = encodeURIComponent('Olá, Larissa! Gostaria de saber mais sobre o atendimento infantil. 🌱');
-const IG_USER = 'larissaantunes.psi'; // placeholder
-const PHONE_DISPLAY = '(00) 00000-0000'; // placeholder
+const WPP_NUMBER = '5534984137927'; // (34) 9 8413-7927
+const WPP_MSG = encodeURIComponent('Olá, vim pelo site e gostaria de mais detalhes');
+const IG_USER = 'larissaantunespsi';
+const PHONE_DISPLAY = '(34) 9 8413-7927';
 
 function ContatoIcon({ type }) {
   if (type === 'whats') return (
@@ -57,7 +57,7 @@ function Footer() {
   return (
     <footer className="site-footer">
       <div className="wrap footer-inner">
-        <img src="assets/logo.png" alt="Larissa Antunes — Psicóloga" className="footer-logo" style={{ width: "180px", height: "180px" }} />
+        <img src="assets/logo.png" alt="Larissa Antunes — Psicóloga" className="footer-logo" style={{ width: "200px", height: "200px" }} />
         <p className="footer-tag">Psicologia infantojuvenil · Terapia Cognitivo-Comportamental</p>
         <p className="footer-crp">Larissa Antunes · Psicóloga · CRP 04/84722</p>
         <p className="footer-credit">Feito com cuidado 🌱 · © {new Date().getFullYear()}</p>

@@ -116,16 +116,8 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
   box-shadow: 0 4px 24px rgba(114,84,79,.08);
 }
 .site-header .logo { display: flex; align-items: center; gap: .6rem; position: relative; }
-.site-header .logo::before {
-  content: ""; position: absolute; left: 50%; top: 50%; transform: translate(-50%, -50%);
-  width: 132px; height: 132px; border-radius: 50%;
-  background: radial-gradient(circle, rgba(255,255,255,.95) 0%, rgba(255,255,255,.55) 55%, rgba(255,255,255,0) 72%);
-  z-index: -1; transition: width .3s, height .3s, opacity .3s;
-}
-.site-header .logo .logo-img { height: 124px; width: 124px; object-fit: contain; transition: height .35s ease, width .35s ease, transform .4s; }
+.site-header .logo .logo-img { object-fit: contain; transition: transform .4s; }
 .site-header .logo:hover .logo-img { transform: rotate(-6deg) scale(1.05); }
-.site-header.scrolled .logo .logo-img { height: 72px; width: 72px; }
-.site-header.scrolled .logo::before { width: 84px; height: 84px; opacity: .6; }
 
 .nav-links { display: flex; align-items: center; gap: clamp(.6rem, 2vw, 1.8rem); }
 .nav-links a {
@@ -153,8 +145,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
 
 @media (max-width: 760px) {
   .nav-links .nav-link-text { display: none; }
-  .site-header .logo .logo-img { height: 88px; width: 88px; }
-  .site-header.scrolled .logo .logo-img { height: 60px; width: 60px; }
+  .site-header .logo .logo-img { height: 96px !important; width: 96px !important; }
 }
 
 /* ---------- Reveal on scroll ---------- */
@@ -510,7 +501,7 @@ button { font-family: inherit; cursor: pointer; border: none; background: none; 
    =========================================================== */
 .site-footer { background: var(--brown); color: #f3e7e2; text-align: center; padding: 3rem 1rem 2.4rem; }
 .footer-inner { display: flex; flex-direction: column; align-items: center; gap: .5rem; }
-.footer-logo { height: 96px; width: auto; filter: brightness(0) invert(1); opacity: .92; }
+.footer-logo { height: 180px; width: auto; filter: brightness(0) invert(1); opacity: .92; }
 .footer-tag { font-family: var(--font-display); font-size: 1rem; color: #f3e7e2; margin-top: .4rem; }
 .footer-crp { font-size: .9rem; opacity: .75; }
 .footer-credit { font-size: .82rem; opacity: .6; margin-top: .8rem; }
