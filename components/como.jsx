@@ -16,7 +16,7 @@ function ComoSection() {
           <span className="eyebrow">Como funciona</span>
           <h2>A jornada de cada criança,<br/>a cada passo.</h2>
           <p className="lead" style={{ marginInline: 'auto' }}>
-            Um caminho gentil, no ritmo da criança. Atendimento <strong>presencial e online</strong>,
+            Um caminho gentil, no ritmo da criança. Atendimento <strong>presencial</strong>,
             para crianças e adolescentes.
           </p>
         </div>
