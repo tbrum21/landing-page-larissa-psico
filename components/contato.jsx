@@ -1,9 +1,9 @@
 /* contato.jsx — Contato / Agendamento + rodapé */
 
-const WPP_NUMBER = '5534984137927'; // (34) 9 8413-7927
+const WPP_NUMBER = '5534984023145'; // (34) 9 8402-3145
 const WPP_MSG = encodeURIComponent('Olá, vim pelo site e gostaria de mais detalhes');
 const IG_USER = 'larissaantunespsi';
-const PHONE_DISPLAY = '(34) 9 8413-7927';
+const PHONE_DISPLAY = '(34) 9 8402-3145';
 
 function ContatoIcon({ type }) {
   if (type === 'whats') return (
